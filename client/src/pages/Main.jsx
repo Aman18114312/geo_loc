@@ -1,13 +1,13 @@
 import React from 'react';
 import TextFieldGenerator from '../components/Textfield';
-import backgroundvideo2 from '../assets/backgroundvideo2.mp4';
+import backgroundvideo from '../assets/backgroundvideo.mp4';
 import backgroundImage from '../assets/kanye.png'
 
 const Main = () => {
   return (
     <div className="relative h-screen">
       <video autoPlay loop muted className="absolute inset-0 object-cover w-full h-full">
-        <source src={backgroundvideo2} type="video/mp4" />
+        <source src={backgroundvideo} type="video/mp4" />
         {/* Add additional video sources for different formats if needed */}
         Your browser does not support the video tag.
       </video>

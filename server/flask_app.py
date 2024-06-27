@@ -7,6 +7,8 @@ from geopy.geocoders import OpenCage
 from dotenv import load_dotenv
 load_dotenv()
 
+nlp = spacy.load("en_core_web_sm")
+
 OPENCAGE_API_KEY = os.environ.get('OPENCAGE_API_KEY')
 geolocator = OpenCage(OPENCAGE_API_KEY)
 
@@ -34,7 +36,7 @@ app = Flask(__name__, static_folder='public')
 df = pd.read_csv('final_geo.csv')
 df['Locations'] = df['Locations'].apply(ast.literal_eval)
 
-nlp = spacy.load("en_core_web_sm")
+
 
 
 
