@@ -19,3 +19,7 @@ GeoContent Recommender is a web application designed to provide personalized con
 - **Geolocation Extraction**: Named Entity Recognition (NER)
 - **Mapping**: Geocoders API
 
+
+
+https://github.com/user-attachments/assets/e15c2a0d-78fb-487c-af70-f99e82595d2b
+
